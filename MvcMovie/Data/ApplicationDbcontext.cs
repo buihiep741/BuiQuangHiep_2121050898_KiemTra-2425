@@ -7,7 +7,6 @@ namespace MvcMovie.Data
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         { }
-        public DbSet<DaiLy> DaiLy { get; set; }
-        public DbSet<HeThongPhanPhoi> HeThongPhanPhoi { get; set; }
+        public DbSet<ca2> ca2 { get; set; }
     }
 }
