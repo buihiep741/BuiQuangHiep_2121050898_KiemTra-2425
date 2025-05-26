@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\New folder\\MvcMovie\\MvcMovie.csproj": {}
+    "E:\\BKT\\MvcMovie\\MvcMovie.csproj": {}
   },
   "projects": {
-    "E:\\New folder\\MvcMovie\\MvcMovie.csproj": {
+    "E:\\BKT\\MvcMovie\\MvcMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\New folder\\MvcMovie\\MvcMovie.csproj",
+        "projectUniqueName": "E:\\BKT\\MvcMovie\\MvcMovie.csproj",
         "projectName": "MvcMovie",
-        "projectPath": "E:\\New folder\\MvcMovie\\MvcMovie.csproj",
+        "projectPath": "E:\\BKT\\MvcMovie\\MvcMovie.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\New folder\\MvcMovie\\obj\\",
+        "outputPath": "E:\\BKT\\MvcMovie\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -44,6 +44,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.7.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
