@@ -11,6 +11,6 @@ namespace MvcMovie.Models
         public string FullName { get; set; }
         public string Address { get; set; }
         public string Age { get; set; }
-        public string SoDienThoai { get; set; }
+        public double Height { get; set; }
     }
 }
