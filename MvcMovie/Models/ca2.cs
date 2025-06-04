@@ -7,10 +7,8 @@ namespace MvcMovie.Models
     public class ca2
     {
         [Key]
-        public string PersonId { get; set; }
-        public string FullName { get; set; }
-        public string Address { get; set; }
-        public string Age { get; set; }
-        public double Height { get; set; }
+        public string ten { get; set; }
+        public string diachi { get; set; }
+        public int tuoi { get; set; }
     }
 }
